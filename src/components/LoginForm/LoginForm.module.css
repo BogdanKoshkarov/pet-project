@@ -1,0 +1,164 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem auto 17rem;
+  width: 40.9rem;
+  gap: 2.4rem;
+}
+.loginForm p {
+  color: #040404;
+  font-family: "Fixel Text Regular";
+  font-size: 16px;
+  line-height: 110%;
+}
+.loginForm p span {
+  color: #040404;
+  font-family: "Fixel Display Semibold";
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+.titleBlock p {
+  font-family: "Fixel Display Medium";
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #040404;
+}
+.titleBlock span {
+  font-family: "Fixel Text Regular";
+  font-size: 18px;
+  line-height: 140%;
+  color: #4A4A4A;
+}
+
+.loginError {
+  width: 40.9rem;
+  display: flex;
+  padding: 1.2rem;
+  align-items: center;
+  align-self: stretch;
+  background: #DFC5C5;
+}
+.loginError span {
+  font-family: "Fixel Text Regular";
+  font-size: 16px;
+  line-height: 110%;
+  color: #EA001B;
+}
+
+.inputsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.form {
+  width: 40.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.forgotPassword {
+  font-family: "Fixel Display Semibold";
+  font-size: 12px;
+  line-height: 110%;
+  color: #4A4A4A;
+}
+
+.socialButtonsBlock {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  align-self: stretch;
+}
+.divider div {
+  width: 19.3rem;
+  height: 0.1rem;
+  background: #D7D7D7;
+}
+.divider span {
+  color: #040404;
+  font-family: "Fixel Text Regular";
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.button {
+  width: 40.9rem;
+  background: #040404;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+}
+.button span {
+  font-family: "Fixel Text Medium";
+  font-size: 18px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #FAFAFA;
+}
+.button:hover {
+  background: #5A9B83;
+}
+.button:active {
+  background: #1A6449;
+}
+.button:disabled {
+  background: #F5F5F5;
+  cursor: not-allowed;
+}
+.button:disabled span {
+  color: #9B9B9B;
+}
+
+.googleButton {
+  width: 40.9rem;
+  background: #FAFAFA;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+  border: 1px solid #727272;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+.googleButton span {
+  color: #4A4A4A;
+  font-family: "Fixel Display Semibold";
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.googleButton:hover {
+  background: rgba(169, 223, 203, 0.3);
+}
+.googleButton:active {
+  background: #A9DFCB;
+}
+.googleButton:disabled {
+  background: #F5F5F5;
+  border: 1px solid #9B9B9B;
+  coursor: not-allowed;
+}
+
+/*# sourceMappingURL=LoginForm.module.css.map */

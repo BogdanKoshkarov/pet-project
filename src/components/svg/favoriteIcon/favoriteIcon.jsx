@@ -1,0 +1,13 @@
+import React from 'react';
+import styles from './favoriteIcon.module.scss';
+
+const FavoriteIcon = () => (
+  <div className={styles.favoriteIcon} data-testid="FavoriteIcon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+      {/* eslint-disable-next-line max-len */}
+      <path d="M20.6117 5.41452C20.1718 4.96607 19.6496 4.61034 19.0749 4.36763C18.5001 4.12492 17.8841 4 17.2619 4C16.6398 4 16.0237 4.12492 15.449 4.36763C14.8742 4.61034 14.352 4.96607 13.9122 5.41452L12.9994 6.34476L12.0866 5.41452C11.1982 4.50912 9.99328 4.00047 8.73688 4.00047C7.48049 4.00047 6.27555 4.50912 5.38714 5.41452C4.49874 6.31992 3.99963 7.5479 3.99963 8.82833C3.99963 10.1088 4.49874 11.3367 5.38714 12.2421L6.29992 13.1724L12.9994 20L19.6989 13.1724L20.6117 12.2421C21.0517 11.7939 21.4008 11.2617 21.6389 10.676C21.8771 10.0902 21.9996 9.46237 21.9996 8.82833C21.9996 8.19428 21.8771 7.56645 21.6389 6.9807C21.4008 6.39494 21.0517 5.86275 20.6117 5.41452V5.41452Z" stroke="#040404" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  </div>
+);
+
+export default FavoriteIcon;

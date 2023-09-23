@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Skirt Wander",
+    "price": 129,
+    "sizes": ["xs", "s", "m", "l"]
+  },
+  {
+    "id": 2,
+    "name": "Something Beautiful",
+    "price": 1259,
+    "sizes": ["xs", "m", "l"]
+  }
+]

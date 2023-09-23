@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-grow: 1;
+  padding-top: 9rem;
+  max-width: 144rem;
+  width: 100%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=Layout.module.css.map */

@@ -1,0 +1,97 @@
+@import '../../styles/variables.module.scss';
+.itemPreviewCard {
+  position: relative;
+  max-width: 41rem;
+  max-height: 57.8rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.8rem;
+  display: inline-flex;
+
+  &:hover {
+    .itemPreviewCard__status {
+      background: $accent-a-4;
+    }
+    .itemPreviewCard__heart {
+      div {
+        svg {
+          path[stroke] {
+            stroke: $accent-a-4;
+          }
+          path[fill] {
+            fill: $accent-a-4;
+          }
+        }
+      }
+    }
+  }
+  &:active {
+    .itemPreviewCard__status {
+      background: $accent-a-8;
+    }
+    .itemPreviewCard__heart {
+      div {
+        svg {
+          path[stroke] {
+            stroke: $accent-a-8;
+          }
+          path[fill] {
+            fill: $accent-a-8;
+          }
+        }
+      }
+    }
+  }
+}
+.itemPreviewCard__image {
+  width: 41rem;
+  height: 50rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.itemPreviewCard__status {
+  padding: 0.8rem 1rem;
+  background: $black;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+  top: 1rem;
+  left: -0.3rem;
+}
+.itemPreviewCard__statusText {
+  color: white;
+  font-size: 1.8rem;
+  font-family: Fixel Display, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+.itemPreviewCard__heart {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+.itemPreviewCard__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.itemPreviewCard__descriptionText {
+  color: $black;
+  @include fonts($body-2);
+  text-align: start;
+}
+.itemPreviewCard__price {
+  color: black;
+  @include fonts($headline-8);
+}

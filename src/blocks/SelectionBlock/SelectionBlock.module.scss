@@ -1,0 +1,20 @@
+@import '../../styles/variables.module';
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid $black-color;
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

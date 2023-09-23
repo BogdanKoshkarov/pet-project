@@ -1,0 +1,59 @@
+.guideContainer {
+  width: 100%;
+  padding: 40px 80px 80px;
+  position: relative;
+}
+.guideContainer .closeIcon {
+  position: absolute;
+  top: 2.4rem;
+  right: 2.4rem;
+  cursor: pointer;
+}
+.guideContainer h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.guideContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 32px;
+}
+.guideContent p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.128px;
+}
+
+.guideTable {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.144px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  border-right: none;
+  border-spacing: 0;
+  text-align: center;
+}
+.guideTable th {
+  border-bottom: 1px solid black;
+}
+.guideTable td,
+.guideTable th {
+  border-right: 1px solid black;
+  padding: 16px 0;
+}
+
+/*# sourceMappingURL=SizeGuide.module.css.map */

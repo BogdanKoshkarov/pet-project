@@ -1,0 +1,22 @@
+@import '../../../styles/variables.module.scss';
+.leftArrowIcon {
+  width: 4rem;
+  height: 4rem;
+
+  svg {
+    path {
+      fill: $black;
+
+      &:hover {
+        fill: $accent-a-4;
+      }
+      &:active {
+        fill: $accent-a-6;
+      }
+      &:disabled {
+        fill: $gray-80;
+        coursor: not-allowed;
+      }
+    }
+  }
+}

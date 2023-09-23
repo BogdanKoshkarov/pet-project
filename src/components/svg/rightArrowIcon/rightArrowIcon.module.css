@@ -1,0 +1,19 @@
+.rightArrowIcon {
+  width: 4rem;
+  height: 4rem;
+}
+.rightArrowIcon svg path {
+  fill: #040404;
+}
+.rightArrowIcon svg path:hover {
+  fill: #3A7F66;
+}
+.rightArrowIcon svg path:active {
+  fill: #15503A;
+}
+.rightArrowIcon svg path:disabled {
+  fill: #D7D7D7;
+  coursor: not-allowed;
+}
+
+/*# sourceMappingURL=rightArrowIcon.module.css.map */

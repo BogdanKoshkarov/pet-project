@@ -1,0 +1,43 @@
+@import '../../styles/variables.module';
+.loginForm {
+  @include form();
+}
+.titleBlock {
+  @include form-title-block();
+}
+.loginError {
+  @include form-expected-error();
+}
+.inputsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+.form {
+  width: $form-width;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.forgotPassword {
+  @include fonts($link-2);
+  color: $gray-10;
+}
+.socialButtonsBlock {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.divider {
+  @include divider();
+}
+.button {
+  @include button-black($form-width);
+}
+.googleButton {
+  @include button-transparent($form-width);
+}

@@ -1,0 +1,19 @@
+@import '../../styles/variables.module';
+
+.topHeader {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $black-color;
+}
+
+.topTitle {
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  color: $white-color;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+}

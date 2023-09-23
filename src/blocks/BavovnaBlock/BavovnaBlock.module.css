@@ -1,0 +1,57 @@
+.bavovnaBlock {
+  display: flex;
+  width: 143.4rem;
+  padding: 10rem 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.title {
+  width: 90rem;
+  color: #040404;
+  font-family: "Fixel Display Medium";
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 72.8rem;
+  color: #040404;
+  font-family: "Fixel Text Regular";
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.button {
+  margin: 0 auto;
+  width: 19.5rem;
+  background: #FAFAFA;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+  border: 1px solid #727272;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+.button span {
+  color: #4A4A4A;
+  font-family: "Fixel Display Semibold";
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: rgba(169, 223, 203, 0.3);
+}
+.button:active {
+  background: #A9DFCB;
+}
+.button:disabled {
+  background: #F5F5F5;
+  border: 1px solid #9B9B9B;
+  coursor: not-allowed;
+}
+
+/*# sourceMappingURL=BavovnaBlock.module.css.map */

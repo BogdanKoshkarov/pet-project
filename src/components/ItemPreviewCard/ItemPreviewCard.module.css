@@ -1,0 +1,92 @@
+.itemPreviewCard {
+  position: relative;
+  max-width: 41rem;
+  max-height: 57.8rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.8rem;
+  display: inline-flex;
+}
+.itemPreviewCard:hover .itemPreviewCard__status {
+  background: #3A7F66;
+}
+.itemPreviewCard:hover .itemPreviewCard__heart div svg path[stroke] {
+  stroke: #3A7F66;
+}
+.itemPreviewCard:hover .itemPreviewCard__heart div svg path[fill] {
+  fill: #3A7F66;
+}
+.itemPreviewCard:active .itemPreviewCard__status {
+  background: #0A281D;
+}
+.itemPreviewCard:active .itemPreviewCard__heart div svg path[stroke] {
+  stroke: #0A281D;
+}
+.itemPreviewCard:active .itemPreviewCard__heart div svg path[fill] {
+  fill: #0A281D;
+}
+
+.itemPreviewCard__image {
+  width: 41rem;
+  height: 50rem;
+}
+.itemPreviewCard__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemPreviewCard__status {
+  padding: 0.8rem 1rem;
+  background: #040404;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+  top: 1rem;
+  left: -0.3rem;
+}
+
+.itemPreviewCard__statusText {
+  color: white;
+  font-size: 1.8rem;
+  font-family: Fixel Display, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.itemPreviewCard__heart {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+.itemPreviewCard__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.itemPreviewCard__descriptionText {
+  color: #040404;
+  font-family: "Fixel Text Regular";
+  font-size: 18px;
+  line-height: 140%;
+  text-align: start;
+}
+
+.itemPreviewCard__price {
+  color: black;
+  font-family: "Fixel Text Medium";
+  font-size: 18px;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=ItemPreviewCard.module.css.map */

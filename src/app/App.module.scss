@@ -1,0 +1,37 @@
+@import '../styles/variables.module.scss';
+
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  padding-top: $headerHeight;
+}
+
+
+
+
+
+a {
+  text-decoration: none; // Видалити підкреслення
+  transition: color 0.3s; // Плавна анімація зміни кольору
+  &:hover {
+    color: var(--accent-a-7, #103C2C); // Колір тексту при наведенні
+    text-decoration: underline;
+  }
+  &:active {
+     // Колір тексту при натисканні
+
+  }
+  &:disabled {
+    color: #c0c0c0; // Колір тексту в режимі disabled
+    pointer-events: none; // Вимкнення подій для вимкнених посилань
+  }
+}
+
+
+
+

@@ -1,0 +1,57 @@
+@import '../../../styles/variables.module';
+.textField {
+  display: flex;
+  width: $form-width;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  align-self: stretch;
+  color: $accent-a-95;
+  @include fonts($body-3);
+
+  span {
+    color: $error
+  }
+}
+
+.inputBlock {
+  display: flex;
+  height: 4.8rem;
+  padding: 1.4rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border: 1px solid $gray-30;
+  background: $white;
+
+  input {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    background: $white;
+    @include fonts($input-text);
+  }
+  button {
+    background: $white;
+    color: $gray-20;
+  }
+}
+.error {
+  color: var(--error, #EA001B);
+
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

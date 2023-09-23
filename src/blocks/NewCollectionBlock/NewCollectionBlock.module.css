@@ -1,0 +1,69 @@
+.newCollectionBlock {
+  background: linear-gradient(90deg, rgba(222, 222, 222, 0.54) 14.47%, rgba(225, 225, 225, 0) 45.58%), url("../../../public/img/images/NewCollection/Rectangle 25.png"), lightgray 50%/cover no-repeat;
+  width: 100%;
+  height: 84.1rem;
+  margin: 0 auto;
+}
+
+.newCollectionBlock__wrapper {
+  display: flex;
+  width: 57.8rem;
+  height: 26.3rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4rem;
+  margin-top: 24.1rem;
+  margin-left: 8rem;
+  margin-bottom: 33.7rem;
+}
+
+.newCollectionBlock__title {
+  color: #040404;
+  word-wrap: break-word;
+  font-family: "Fixel Display Extra Bold";
+  font-size: 56px;
+  line-height: 150%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+}
+
+.newCollectionBlock__manifest {
+  color: #040404;
+  font-family: "Fixel Text Regular";
+  font-size: 18px;
+  line-height: 140%;
+  word-wrap: break-word;
+  text-align: start;
+}
+
+.button {
+  width: 19.5rem;
+  background: #040404;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+}
+.button span {
+  font-family: "Fixel Text Medium";
+  font-size: 18px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #FAFAFA;
+}
+.button:hover {
+  background: #5A9B83;
+}
+.button:active {
+  background: #1A6449;
+}
+.button:disabled {
+  background: #F5F5F5;
+  cursor: not-allowed;
+}
+.button:disabled span {
+  color: #9B9B9B;
+}
+
+/*# sourceMappingURL=NewCollectionBlock.module.css.map */

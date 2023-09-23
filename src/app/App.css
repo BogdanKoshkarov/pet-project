@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  padding-top: var(--headerHeight);
+}

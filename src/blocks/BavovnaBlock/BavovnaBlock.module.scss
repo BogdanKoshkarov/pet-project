@@ -1,0 +1,24 @@
+@import '../../styles/variables.module.scss';
+.bavovnaBlock {
+  display: flex;
+  width: 143.4rem;
+  padding: 10rem 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+.title {
+  width: 90rem;
+  color: $black;
+  @include fonts($headline-2);
+}
+.content {
+  width: 72.8rem;
+  color: $black;
+  @include fonts($body-2);
+
+}
+.button {
+  margin: 0 auto;
+  @include button-transparent(19.5rem);
+}

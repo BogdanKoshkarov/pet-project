@@ -1,0 +1,56 @@
+.saleBlock {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 100%;
+  height: 37.6rem;
+  background: url("../../../public/img/images/Sale/Rectangle 27.png"), lightgray 50%/cover no-repeat;
+}
+
+.contentBlock {
+  margin: 12.6rem auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.title {
+  margin: 0 auto;
+  color: #040404;
+  font-family: "Fixel Display Medium";
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.button {
+  width: 19.5rem;
+  background: #FAFAFA;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+  border: 1px solid #727272;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+.button span {
+  color: #4A4A4A;
+  font-family: "Fixel Display Semibold";
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: rgba(169, 223, 203, 0.3);
+}
+.button:active {
+  background: #A9DFCB;
+}
+.button:disabled {
+  background: #F5F5F5;
+  border: 1px solid #9B9B9B;
+  coursor: not-allowed;
+}
+
+/*# sourceMappingURL=SaleBlock.module.css.map */

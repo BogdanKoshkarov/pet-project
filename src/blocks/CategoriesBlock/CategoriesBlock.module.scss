@@ -1,0 +1,41 @@
+@import '../../styles/variables.module.scss';
+.categoriesBlock {
+  margin: 10rem auto;
+  display: flex;
+  width: 132.1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+
+  span {
+    @include fonts($headline-2);
+  }
+}
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  button {
+    background-color: transparent;
+    display: flex;
+    height: 4.4rem;
+    padding: 0.94rem 0.84rem 0.94rem 1.04rem;
+    justify-content: center;
+    align-items: center;
+    color: $accent-a-4;
+  }
+}
+.newArrivalsBlock__box {
+  width: 128rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.4rem;
+  margin: 0 auto;
+}

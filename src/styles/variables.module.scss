@@ -1,0 +1,348 @@
+$headerHeight: 9rem;
+$max-width: 144rem;
+$form-width: 40.9rem;
+
+$white-color: #ffffff;
+$black-color: #040404;
+$accent_4: #3a7f66;
+$header-text-color: #212a2f;
+$second-color: #f8f8f8;
+$active-color: #ad1f00;
+$bg-color: #d9d9d9;
+$section-bg-color: #f1f1f1;
+$btn-bg-color: #6d6d6d;
+$transparent-30: rgba(169, 223, 203, 0.3);
+
+$headline-1:(
+        family: 'Fixel Display Extra Bold',
+        size: 56px,
+        line-height: 150%,
+        letter-spacing: 4%,
+        text-transform: uppercase,
+);
+$headline-2:(
+        family: 'Fixel Display Medium',
+        size: 32px,
+        line-height: 120%,
+        text-transform: uppercase,
+);
+$headline-3:(
+        family: 'Fixel Display Bold',
+        size: 24px,
+        line-height: 120%,
+        letter-spacing: 4%,
+        text-transform: uppercase,
+);
+$headline-4:(
+        family: 'Fixel Display Regular',
+        size: 24px,
+        line-height: 120%,
+        text-transform: uppercase
+);
+$headline-5:(
+        family: 'Fixel Text Medium',
+        size: 20px,
+        line-height: 120%,
+        text-transform: uppercase
+);
+$headline-6:(
+        family: 'Fixel Text Regular',
+        size: 20px,
+        line-height: 120%,
+        text-transform: uppercase
+);
+$headline-7:(
+        family: 'Fixel Text Semibold',
+        size: 20px,
+        line-height: 120%,
+        text-transform: uppercase
+);
+$headline-8:(
+        family: 'Fixel Text Medium',
+        size: 18px,
+        line-height: 110%,
+        text-transform: uppercase
+);
+$headline-9:(
+        family: 'Fixel Display Regular',
+        size: 16px,
+        line-height: 110%,
+        text-transform: uppercase
+);
+$headline-10:(
+        family: 'Fixel Display Regular',
+        size: 14px,
+        line-height: 110%,
+        text-transform: uppercase
+);
+$body-1:(
+        family: 'Fixel Text Medium',
+        size: 20px,
+        line-height: 120%,
+);
+$body-2:(
+        family: 'Fixel Text Regular',
+        size: 18px,
+        line-height: 140%,
+);
+$body-3:(
+        family: 'Fixel Text Regular',
+        size: 16px,
+        line-height: 110%,
+);
+$menu-1:(
+        family: 'Fixel Display Semibold',
+        size: 16px,
+        line-height: 110%,
+        text-transform: uppercase,
+);
+$menu-2:(
+        family: 'Fixel Display Regular',
+        size: 12px,
+        line-height: 110%,
+        text-transform: uppercase,
+);
+$menu-3:(
+        family: 'Fixel Display Regular',
+        size: 12px,
+        line-height: 110%,
+);
+$menu-4:(
+        family: 'Fixel Display Medium',
+        size: 12px,
+        line-height: 110%,
+        text-transform: uppercase,
+);
+$link-1:(
+        family: 'Fixel Display Semibold',
+        size: 16px,
+        line-height: 110%,
+);
+$link-2:(
+        family: 'Fixel Display Semibold',
+        size: 12px,
+        line-height: 110%,
+);
+$link-3:(
+        family: 'Fixel Display Regular',
+        size: 12px,
+        line-height: 110%,
+);
+$button:(
+        family: 'Fixel Display Semibold',
+        size: 20px,
+        line-height: 140%,
+        text-transform: uppercase,
+);
+$running-line:(
+        family: 'Fixel Display Light',
+        size: 20px,
+        line-height: 120%,
+        text-transform: uppercase,
+);
+$tab-bars:(
+        family: 'Fixel Display Semibold',
+        size: 16px,
+        line-height: 140%,
+        text-transform: uppercase,
+);
+$breadcrumb:(
+        family: 'Fixel Display Regular',
+        size: 16px,
+        line-height: 140%,
+);
+$discount-price:(
+        family: 'Fixel Display Medium',
+        size: 16px,
+        line-height: 140%,
+        text-transform: uppercase,
+);
+$label:(
+        family: 'Fixel Display Regular',
+        size: 16px,
+        line-height: 140%,
+);
+$input-text:(
+        family: 'Fixel Display Regular',
+        size: 16px,
+        line-height: 140%,
+);
+
+$accent-a-95: #030A07;
+$accent-a-9: #05140F;
+$accent-a-85: #081E16;
+$accent-a-8: #0A281D;
+$accent-a-7: #103C2C;
+$accent-a-6: #15503A;
+$accent-a-5: #1A6449;
+$accent-a-4: #3A7F66;
+$accent-a-3: #5A9B83;
+$accent-a-2: #79B6A0;
+$accent-a-15: #89C4AE;
+$accent-a-1: #99D2BD;
+$accent-a-05: #A9DFCB;
+
+$gray-10: #4A4A4A;
+$gray-20: #5D5D5D;
+$gray-30: #727272;
+$gray-40: #868686;
+$gray-50: #9B9B9B;
+$gray-60: #AFAFAF;
+$gray-70: #C3C3C3;
+$gray-80: #D7D7D7;
+$gray-90: #F5F5F5;
+
+$black: #040404;
+$white: #FAFAFA;
+$transparent70-gray10: rgba(74, 74, 74, 0.70);
+$transparent-30-a-05: rgba(169, 223, 203, 0.30);
+
+$success: #2AB66A;
+$error: #EA001B;
+$warning: #FFD90F;
+$additional-information: #589BFF;
+$light-pink: #DFC5C5;
+
+@mixin fonts($font-map) {
+  font-family: map-get($font-map, family);
+  font-size: map-get($font-map, size);
+  line-height: map-get($font-map, line-height);
+  letter-spacing: map-get($font-map, letter-spacing);
+  text-transform: map-get($font-map, text-transform);
+}
+
+@mixin button-black($button-width) {
+  width: $button-width;
+  background: $black;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+
+  span {
+    @include fonts($headline-8);
+    color: $white;
+  }
+
+  &:hover {
+    background: $accent-a-3;
+  }
+  &:active {
+    background: $accent-a-5;
+  }
+  &:disabled {
+    background: $gray-90;
+    cursor: not-allowed;
+
+    span {
+      color: $gray-50;
+    }
+  }
+}
+
+@mixin button-transparent($button-width){
+  width: $button-width;
+  background: $white;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem 3.6rem;
+  gap: 0.2rem;
+  border: 1px solid $gray-30;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+
+  span {
+    color: $gray-10;
+    @include fonts($button);
+  }
+  &:hover {
+    background: $transparent-30-a-05;
+  }
+  &:active {
+    background: $accent-a-05;
+  }
+  &:disabled {
+    background: $gray-90;
+    border: 1px solid $gray-50;
+    coursor: not-allowed;
+  }
+}
+
+@mixin divider (){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  align-self: stretch;
+
+  div {
+    width: 19.3rem;
+    height: 0.1rem;
+    background: $gray-80;
+  }
+
+  span {
+    color: $black;
+    @include fonts($body-3);
+  }
+}
+
+@mixin form () {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem auto 17rem;
+  width: $form-width;
+  gap: 2.4rem;
+
+  p {
+    color: $black;
+    @include fonts($body-3);
+
+    span {
+      color: $black;
+      @include fonts($link-1);
+    }
+  }
+}
+
+@mixin form-expected-error {
+  width: $form-width;
+  display: flex;
+  padding: 1.2rem;
+  align-items: center;
+  align-self: stretch;
+  background: $light-pink;
+
+  span {
+    @include fonts($body-3);
+    color: $error;
+  }
+}
+
+@mixin form-title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+
+  p {
+    @include fonts($headline-2);
+    color: $black-color;
+  }
+
+  span {
+    @include fonts($body-2);
+    color: $gray-10;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

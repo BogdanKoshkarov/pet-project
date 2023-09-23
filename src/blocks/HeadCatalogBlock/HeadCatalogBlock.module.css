@@ -1,0 +1,32 @@
+.hero {
+  background-color: #d9d9d9;
+  background-image: url("../../../public/img/images/Catalog/catalogHero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 5.4rem;
+}
+
+.heroTitle {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.heroBtn {
+  background-color: #040404;
+  color: #ffffff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  padding: 2.1rem 3.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=HeadCatalogBlock.module.css.map */

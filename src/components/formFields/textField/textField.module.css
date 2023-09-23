@@ -1,0 +1,59 @@
+.textField {
+  display: flex;
+  width: 40.9rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  align-self: stretch;
+  color: #030A07;
+  font-family: "Fixel Text Regular";
+  font-size: 16px;
+  line-height: 110%;
+}
+.label span {
+  color: #EA001B;
+}
+
+.inputBlock {
+  display: flex;
+  height: 4.8rem;
+  padding: 1.4rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border: 1px solid #727272;
+  background: #FAFAFA;
+}
+.inputBlock input {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  background: #FAFAFA;
+  font-family: "Fixel Display Regular";
+  font-size: 16px;
+  line-height: 140%;
+}
+.inputBlock button {
+  background: #FAFAFA;
+  color: #5D5D5D;
+}
+
+.error {
+  color: var(--error, #EA001B);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=textField.module.css.map */

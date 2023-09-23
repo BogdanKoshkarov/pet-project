@@ -1,0 +1,74 @@
+.newsLettersBlock {
+  background: #E8E8E8;
+  display: flex;
+  width: 143.5rem;
+  height: 42.8rem;
+  padding: 10rem 4rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  flex-shrink: 0;
+}
+
+.title {
+  color: #000;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 51.8rem;
+  color: #000;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.input {
+  display: flex;
+  width: 63rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+.input input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  color: var(--gray-gray-40, #868686);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1.6rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  display: flex;
+  width: 63rem;
+  padding: 2.1rem 3.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  background: #222222;
+}
+.button span {
+  color: #FFF;
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 2.4rem */
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=NewsLettersBlock.module.css.map */

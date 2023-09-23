@@ -1,0 +1,109 @@
+.container {
+  background: #FFFFFF;
+  display: flex;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 9rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  background: #000;
+}
+.banner span {
+  color: #FFF;
+  text-align: center;
+  font-family: Fixel Display, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3rem; /* 162.5% */
+  text-transform: uppercase;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem 8rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 144rem;
+  color: #212a2f;
+}
+
+.headerNavBar {
+  display: flex;
+  gap: 1.6rem;
+  text-transform: uppercase;
+}
+.headerNavBar span {
+  font-size: 1.2rem;
+}
+
+.headerMenuBar {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.headerMenuBar span {
+  color: var(--Black, #040404);
+  font-family: Fixel-Text, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.4rem */
+  letter-spacing: 0.01rem;
+}
+
+.headerMenuBar a {
+  display: flex;
+  align-items: center;
+}
+
+.headerMenuBar a span {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.headerMenuBar a:hover span {
+  color: #3a7f66;
+}
+
+.headerSearch {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headerSearch input {
+  border: none;
+  outline: none;
+  height: 2.4rem;
+}
+
+.headerSearch span {
+  position: absolute;
+  right: 0.1rem;
+}
+
+.headerLang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

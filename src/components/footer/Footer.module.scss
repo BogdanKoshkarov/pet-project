@@ -1,0 +1,123 @@
+@import '../../styles/variables.module.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: $black-color;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  max-width: $max-width;
+  width: 100%;
+  color: $white-color;
+  padding: 7rem 8rem 4rem;
+  margin: auto;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.footerTopLeft {
+  display: flex;
+  width: 75%;
+  gap: 1.7rem;
+  text-align: start;
+  justify-content: space-between;
+
+  & h3 {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+}
+
+.footerContact,
+.footerShop,
+.footerHelp {
+  flex-basis: 33.3%;
+}
+
+.footerList {
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.footerTopRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socialList {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.socialListItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.6rem;
+  width: 3.6rem;
+
+  transition: border-color 0.3s ease;
+
+  & img {
+    height: 1.8rem;
+    transition: filter 0.3s ease;
+  }
+
+  &:hover {
+    & img {
+      filter: invert(0.5) sepia(10) saturate(100) hue-rotate(395deg);
+      fill: $active-color;
+    }
+  }
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.1rem;
+}
+
+.footerBottomLeft {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.footerBottomItem {
+  display: flex;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  flex-basis: 33.3%;
+  opacity: 0.47;
+}
+
+.footerBottomRight {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.leftArrowIcon {
+  width: 4rem;
+  height: 4rem;
+}
+.leftArrowIcon svg path {
+  fill: #040404;
+}
+.leftArrowIcon svg path:hover {
+  fill: #3A7F66;
+}
+.leftArrowIcon svg path:active {
+  fill: #15503A;
+}
+.leftArrowIcon svg path:disabled {
+  fill: #D7D7D7;
+  coursor: not-allowed;
+}
+
+/*# sourceMappingURL=leftArrowIcon.module.css.map */

@@ -1,0 +1,20 @@
+.selection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #040404;
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=SelectionBlock.module.css.map */

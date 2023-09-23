@@ -1,0 +1,129 @@
+@import 'styles/variables.module.scss';
+
+/* Типографіка */
+@font-face {
+  font-family: 'Fixel Display Extra Bold';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-ExtraBold.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fixel Display Bold';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-Bold.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fixel Display Semibold';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-SemiBold.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fixel Display Medium';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-Medium.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fixel Display Regular';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-Regular.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fixel Display Light';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-Light.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fixel Text Semibold';
+  src: url('../public/fonts/fixelText/FixelText-SemiBold.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fixel Text Regular';
+  src: url('../public/fonts/fixelText/FixelText-Regular.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fixel Text Medium';
+  src: url('../public/fonts/fixelText/FixelText-Medium.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'Fixel Display';
+  src: url('../public/fonts/fixelDisplay/FixelDisplay-Regular.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fixel';
+  src: url('../public/fonts/fixelVariable/FixelVariable.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fixel-Text';
+  src: url('../public/fonts/fixelText/FixelText-Regular.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Fixel', 'Fixel Display','Fixel Display Extra Bold',
+    'Fixel Display Bold','Fixel Display Semibold','Fixel Display Regular',
+    'Fixel Text Semibold','Fixel Text Regular','Fixel Display Medium',
+    'Fixel Text Medium',-apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: Fixel Display; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ad1f00;
+  opacity: 1;
+}
